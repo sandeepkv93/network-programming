@@ -1,14 +1,16 @@
-all: clean net
+all: clean build install
 
 clean:
 	@echo "Cleaning"
 	rm -f net
-	rm -f /usr/local/bin/net
+	sudo rm -f /usr/local/bin/net
 
-net:
+build: clean
 	@echo "Building net command line tool"
 	go build -o net .
 
-install: clean net
+install: build
 	@echo "Installing net command line tool in /usr/local/bin"
-	cp net /usr/local/bin/net
+	sudo cp net /usr/local/bin/net
+	@echo "Done"
+	net -h
