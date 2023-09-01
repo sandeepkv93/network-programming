@@ -1,7 +1,7 @@
 package main
 
-import pingCommand "networkprogramming/ping"
+import "networkprogramming/cmd"
 
 func main() {
-	pingCommand.Execute()
+	cmd.Execute()
 }
