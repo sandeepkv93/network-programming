@@ -2,9 +2,9 @@
 
 ### Table of Contents
 
-| No. | Problem Statement | Explanation               | Code                      |
-| --- | ----------------- | ------------------------- | ------------------------- |
-| 1   | Ping              | [How Ping works?](./ping) | [ping.go](./ping/ping.go) |
+| No. | Problem Statement & Explanation | Code                      |
+| --- | ------------------------------- | ------------------------- |
+| 1   | [Ping](./ping)                  | [ping.go](./ping/ping.go) |
 
 ### Coming Soon
 
