@@ -55,5 +55,5 @@ The "ping" tool operates by sending ICMP Echo Request messages to a target host 
 
 ### Further Reading
 
-[RFC 792 - ICMP](https://datatracker.ietf.org/doc/html/rfc792): This is the original specification for the ICMP protocol.
-[Go net package](https://pkg.go.dev/net): The official Go documentation for the net package, which our ping package relies on.
+-   [RFC 792 - ICMP](https://datatracker.ietf.org/doc/html/rfc792): This is the original specification for the ICMP protocol.
+-   [Go net package](https://pkg.go.dev/net): The official Go documentation for the net package, which our ping package relies on.
