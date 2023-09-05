@@ -44,14 +44,3 @@ func (c *UDPClient) SendMessage(msg string) {
 
 	fmt.Println("Received from server:", string(buf[:n]))
 }
-
-// func main() {
-// 	client := UDPClient{
-// 		serverAddr: "127.0.0.1:8080",
-// 	}
-
-// 	for {
-// 		client.SendMessage("Hello, server!")
-// 		time.Sleep(2 * time.Second)
-// 	}
-// }
