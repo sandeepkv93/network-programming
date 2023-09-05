@@ -66,9 +66,7 @@ This package provides an implementation of a UDP server and client in Go. UDP (U
 4. **Go Networking** :
 
     - [Go Documentation: Package net](https://golang.org/pkg/net/) - The official Go documentation for the net package, which provides a portable interface for network I/O.
-    - [Go by Example: UDP Client and Server](https://gobyexample.com/udp-client-and-server) - A simple tutorial on writing a UDP client and server in Go.
 
 5. **Books** :
 
     - "Computer Networking: A Top-Down Approach" by James F. Kurose and Keith W. Ross - This book offers an in-depth exploration of various networking concepts, including UDP and its applications.
-    - "The Go Programming Language" by Alan A. A. Donovan and Brian W. Kernighan - While not focused solely on networking, this book is a comprehensive resource for the Go programming language and includes sections on network programming.
