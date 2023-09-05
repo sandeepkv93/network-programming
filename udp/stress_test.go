@@ -6,6 +6,7 @@ import (
 )
 
 func TestServerLoad(t *testing.T) {
+	t.Skip("Skipping this test because it takes too long to run in github actions")
 	serverAddr := "localhost:9002"
 	server := NewUDPServer(serverAddr)
 
