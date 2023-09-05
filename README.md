@@ -2,10 +2,10 @@
 
 ### Table of Contents
 
-| No. | Problem Statement & Explanation        | Code                                                       |
-| --- | -------------------------------------- | ---------------------------------------------------------- |
-| 1   | [UDP Client & Server](./udp/README.md) | [server.go](./udp/server.go), [client.go](./udp/client.go) |
-| 2   | [Ping](./ping/README.md)               | [ping.go](./ping/ping.go)                                  |
+| No. | Problem Statement & Explanation        | Code                                                                                               |
+| --- | -------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| 1   | [UDP Client & Server](./udp/README.md) | [server.go](./udp/server.go), [client.go](./udp/client.go), [stress_test.go](./udp/stress_test.go) |
+| 2   | [Ping](./ping/README.md)               | [ping.go](./ping/ping.go)                                                                          |
 
 ### Coming Soon
 
