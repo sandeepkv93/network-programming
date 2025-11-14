@@ -16,48 +16,48 @@
 | 10  | [Mail Client & Server](./mail/README.md)             | [server.go](./mail/server.go), [client.go](./mail/client.go)                                       |
 | 11  | [SMTP Client & Server](./smtp/README.md)             | [server.go](./smtp/server.go), [client.go](./smtp/client.go)                                       |
 | 12  | [Load Balancer](./loadbalancer/README.md)            | [loadbalancer.go](./loadbalancer/loadbalancer.go)                                                  |
+| 13  | [Simple Chat App](./chat/README.md)                  | [server.go](./chat/server.go), [client.go](./chat/client.go)                                       |
+| 14  | [Telnet Client & Server](./telnet/README.md)         | [server.go](./telnet/server.go), [client.go](./telnet/client.go)                                   |
+| 15  | [SSH Client & Server](./ssh/README.md)               | [server.go](./ssh/server.go), [client.go](./ssh/client.go)                                         |
+| 16  | [File Transfer over network](./filetransfer/README.md) | [server.go](./filetransfer/server.go), [client.go](./filetransfer/client.go)                     |
+| 17  | [Ifconfig implementation](./ifconfig/README.md)      | [ifconfig.go](./ifconfig/ifconfig.go)                                                              |
+| 18  | [Traceroute implementation](./traceroute/README.md)  | [traceroute.go](./traceroute/traceroute.go)                                                        |
+| 19  | [Netstat implementation](./netstat/README.md)        | [netstat.go](./netstat/netstat.go)                                                                 |
+| 20  | [nslookup implementation](./nslookup/README.md)      | [nslookup.go](./nslookup/nslookup.go)                                                              |
+| 21  | [ARP implementation](./arp/README.md)                | [arp.go](./arp/arp.go)                                                                             |
+| 22  | [DHCP implementation](./dhcp/README.md)              | [server.go](./dhcp/server.go), [client.go](./dhcp/client.go)                                       |
 
 ### Coming Soon
 
-1. Simple Chat App
-2. Telnet Client & Server
-3. SSH Client & Server
-4. File Transfer over network
-5. Ifconfig implementation
-6. Traceroute implementation
-7. Netstat implementation
-8. nslookup implementation
-9. ARP implementation
-10. DHCP implementation
-11. IP Scanner
-12. Web Socket Client & Server
-13. WebRTC Client & Server
-14. VPN Client & Server
-15. Remote Execution
-16. Remote Login
-17. Remote Procedure Call
-18. Tunneling
-19. Heartbeat server
-20. Rate Limiter
-21. Web Crawler
-22. Packet Sniffer
-23. Port Forwarding
-24. Content Delivery Network
-25. HTTPS Client & Server
-26. FTPS Client & Server
-27. SFTP Client & Server
-28. Voice over IP
-29. Video over IP
-30. Video Streaming
-31. Video Conferencing
-32. IP Spoofing
-33. Firewall
-34. IP Tables
-35. OAuth 2.0 Client & Server
-36. Two Factor Authentication
-37. Gossip Protocol
-38. Distributed Hash Table
-39. Paxos
-40. Raft
-41. Byzantine Fault Tolerance
-42. Consensus
+1. IP Scanner
+2. Web Socket Client & Server
+3. WebRTC Client & Server
+4. VPN Client & Server
+5. Remote Execution
+6. Remote Login
+7. Remote Procedure Call
+8. Tunneling
+9. Heartbeat server
+10. Rate Limiter
+11. Web Crawler
+12. Packet Sniffer
+13. Port Forwarding
+14. Content Delivery Network
+15. HTTPS Client & Server
+16. FTPS Client & Server
+17. SFTP Client & Server
+18. Voice over IP
+19. Video over IP
+20. Video Streaming
+21. Video Conferencing
+22. IP Spoofing
+23. Firewall
+24. IP Tables
+25. OAuth 2.0 Client & Server
+26. Two Factor Authentication
+27. Gossip Protocol
+28. Distributed Hash Table
+29. Paxos
+30. Raft
+31. Byzantine Fault Tolerance
+32. Consensus
