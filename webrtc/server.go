@@ -1,7 +1,6 @@
 package webrtc
 
 import (
-	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"

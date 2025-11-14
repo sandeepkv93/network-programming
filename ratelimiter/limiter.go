@@ -11,11 +11,11 @@ import (
 
 // RateLimiter represents a rate limiter
 type RateLimiter struct {
-	requests map[string]*ClientLimitInfo
-	mu       sync.RWMutex
-	rate     int           // requests per window
-	window   time.Duration // time window
-	cleanup  time.Duration // cleanup interval
+	requests        map[string]*ClientLimitInfo
+	mu              sync.RWMutex
+	rate            int           // requests per window
+	window          time.Duration // time window
+	cleanupInterval time.Duration // cleanup interval
 }
 
 // ClientLimitInfo tracks rate limit info for a client
@@ -30,10 +30,10 @@ type ClientLimitInfo struct {
 // NewRateLimiter creates a new rate limiter
 func NewRateLimiter(requestsPerWindow int, window time.Duration) *RateLimiter {
 	rl := &RateLimiter{
-		requests: make(map[string]*ClientLimitInfo),
-		rate:     requestsPerWindow,
-		window:   window,
-		cleanup:  window * 2,
+		requests:        make(map[string]*ClientLimitInfo),
+		rate:            requestsPerWindow,
+		window:          window,
+		cleanupInterval: window * 2,
 	}
 
 	// Start cleanup goroutine
@@ -108,16 +108,16 @@ func (rl *RateLimiter) ResetClient(clientID string) {
 
 // cleanupLoop periodically cleans up old entries
 func (rl *RateLimiter) cleanupLoop() {
-	ticker := time.NewTicker(rl.cleanup)
+	ticker := time.NewTicker(rl.cleanupInterval)
 	defer ticker.Stop()
 
 	for range ticker.C {
-		rl.cleanup()
+		rl.cleanupExpired()
 	}
 }
 
-// cleanup removes expired entries
-func (rl *RateLimiter) cleanup() {
+// cleanupExpired removes expired entries
+func (rl *RateLimiter) cleanupExpired() {
 	rl.mu.Lock()
 	defer rl.mu.Unlock()
 
