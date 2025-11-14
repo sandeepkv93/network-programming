@@ -3,7 +3,6 @@ package ftp
 import (
 	"bufio"
 	"fmt"
-	"io"
 	"log"
 	"net"
 	"os"
